@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 class Student:
     def __init__(self, roll_number, name):
         self.roll_number = roll_number
