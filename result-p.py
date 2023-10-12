@@ -23,7 +23,7 @@ def add_course_for_student(students):
 
     if student:
         course_name = input("Enter course name: ")
-        marks = int(input("Enter marks: ")
+        marks = int(input("Enter marks: "))
         student.add_course(course_name, marks)
         print("Course added for the student.")
     else:
